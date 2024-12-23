@@ -118,7 +118,7 @@ Este exemplo fornece uma estrutura básica para conectar-se a um banco de dados 
 como inserir dados em uma tabela e pode ser expandido para incluir operações de banco de dados mais complexas, como atualizações e exclusões.
 
 
-#### Melhorias:
+## Melhorias:
 
 * Substituir chamadas diretas para `printStackTrace()` por uma abordagem de logging mais robusta é uma prática recomendada
 para aplicações que precisam de um gerenciamento eficaz de erros. Usar uma biblioteca de logging permite que você registre
@@ -233,7 +233,7 @@ public class Program {
 
 Usar uma biblioteca de logging é uma prática recomendada que melhora a qualidade e a manutenção do código.
 
-##### Observação:
+#### Observação:
 
 É possível implementar um sistema de logging mais robusto em Java sem depender de bibliotecas externas como SLF4J ou Logback.
 Você pode usar a classe `java.util.logging`, que já faz parte da biblioteca padrão do Java, para registrar mensagens de log.
