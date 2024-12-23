@@ -328,7 +328,7 @@ public class Program {
 }
 ```
 
-**Explicação do Código***
+**Explicação do Código**
 - **Logger**: Criamos um logger associado à classe Program usando Logger.getLogger().
 - **FileHandler**: Usamos FileHandler para gravar logs em um arquivo chamado application.log.
 - **Formatter**: Usamos SimpleFormatter para formatar as mensagens de log de uma maneira simples.
